@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 3000;
 
 // connect mongodb
 //mongo "mongodb+srv://myanmarcovid-fipgj.mongodb.net/test" --username myanmarcovid_api
-mongoose.connect('mongodb+srv://myanmarcovid_api:myanmarcovid_12345@myanmarcovid-fipgj.mongodb.net/test?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://myanmarcovid_api:<password>@myanmarcovid-fipgj.mongodb.net/test?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
